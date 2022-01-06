@@ -1,27 +1,28 @@
-# Frequently Asked Questions
+# Preguntas frecuentes
 
-## I tried to install Zettlr on Windows, but there's a security warning saying I shouldn't install the app!
+## Intenté instalar Zettlr en Windows, ¡pero hay una advertencia de seguridad que dice que no debería instalar la aplicación!
 
-Zettlr uses code signing as recommended by both Microsoft and Apple to ensure that you install only trustworthy software. However, on Windows, an application needs a sufficiently large amount of installations in order to suppress this security warning. This "trust" is assigned to a code signing certificate, not the application itself. As Zettlr uses private-issued certificates, these have a limited lifetime. The current certificate is valid until 2022, after which Zettlr will be signed using a new certificate which has to go through the whole process once again. As long as you download Zettlr either [from our homepage](https://www.zettlr.com/download) or from the [GitHub releases page](https://github.com/Zettlr/Zettlr/releases) (both are the same files) you can safely install the application and dismiss the warning.
+Zettlr utiliza la firma de código según lo recomendado tanto  por Microsoft como por Apple para garantizar que instale solo software confiable. Sin embargo, en Windows, una aplicación necesita una cantidad suficientemente grande de instalaciones para suprimir esta advertencia de seguridad. Esta "confianza" se asigna a un certificado de firma de código, no a la aplicación en sí. Como Zettlr utiliza certificados emitidos de forma privada, estos tienen una vida útil limitada. El certificado actual es válido hasta 2022, después de lo cual Zettlr se firmará con un nuevo certificado que tiene que pasar por todo el proceso una vez más. Siempre que descargue Zettlr [desde nuestra página de inicio](https://www.zettlr.com/download) o desde la [página de lanzamientos de GitHub](https://github.com/Zettlr/Zettlr/releases) (ambos son los mismos archivos) puede instalar la aplicación de forma segura y descartar la advertencia.
 
-## I cannot dismiss the security warning on Windows and therefore cannot install the app!
+## ¡No puedo ignorar la advertencia de seguridad en Windows y, por lo tanto, no puedo instalar la aplicación!
 
-In many companies the IT department puts restrictions in place so that you cannot dismiss a security warning on your own and therefore cannot install the app. If you work in such a restricted environment, it may be best to just talk to your IT department and ask them to whitelist Zettlr so that you (or your admins) can install the app. If they have questions regarding the origins and/or trustworthyness, it may be best to point them [to Zettlr's GitHub repository](https://github.com/Zettlr/Zettlr).
+En muchas empresas, el departamento de Tecnología establece restricciones para que usted no pueda descartar una advertencia de seguridad por su cuenta y, por lo tanto, no pueda instalar la aplicación. Si trabaja en un entorno tan restringido, puede ser mejor hablar con su departamento de Tecnología y pedirles que incluyan Zettlr en la lista blanca para que usted (o sus administradores) puedan instalar la aplicación. Si tienen preguntas sobre los orígenes y / o la confiabilidad, puede ser mejor señalarlos [al repositorio GitHub de Zettlr](https://github.com/Zettlr/Zettlr).
 
-## I removed the tutorial folder from my computer, and now I cannot get it back!
 
-When Zettlr detects it is being run for the very first time on a computer, it will automatically copy a folder with some Markdown files into your Documents-folder. These Markdown files contain some basic introduction on how to use Zettlr. However, they will only be copied once. In order to get these files if you later realised that you would like to revisit the tutorial, you have two options:
+## ¡Eliminé la carpeta de tutoriales de mi computadora y ahora no puedo recuperarla!
 
-* Rename or remove the `config.json`-file from your application data directory. If that file is not there, Zettlr will think it is being run for the first time and copy the tutorial again.
-* Simply [download the folder directly from source](https://github.com/Zettlr/Zettlr/tree/develop/static/tutorial) (note that this location might change).
+Cuando Zettlr detecta que se está ejecutando por primera vez en una computadora, automáticamente copiará una carpeta con algunos archivos Markdown en su carpeta Documentos. Estos archivos de Markdown contienen una introducción básica sobre cómo usar Zettlr. Sin embargo, solo se copiarán una vez. Para obtener estos archivos si luego se dio cuenta de que le gustaría volver a visitar el tutorial, tiene dos opciones:
 
-## Are there any plans of porting Zettlr to mobile phones and tables, for Android or iOS?
+* Cambie el nombre o elimine el archivo `config.json` del directorio de datos de su aplicación. Si ese archivo no está allí, Zettlr pensará que se está ejecutando por primera vez y volverá a copiar el tutorial.
+* Simplemente [descargue la carpeta directamente desde la fuente](https://github.com/Zettlr/Zettlr/tree/develop/static/tutorial) (tenga en cuenta que esta ubicación puede cambiar).
 
-We are getting more and more requests for mobile versions of Zettlr. We are very happy that you like Zettlr enough to want it on all your devices, and we would love to fulfill your wish! Unfortunately, though, our resources are just enough to keep the development of Zettlr up and running, and adding more work is just not possible at the moment.
+## ¿Hay planes de migrar Zettlr a teléfonos móviles y tabletas, para Android o iOS?
 
-## What is Markdown?
+Recibimos cada vez más solicitudes de versiones móviles de Zettlr. Estamos muy contentos de que te guste Zettlr lo suficiente como para quererlo en todos tus dispositivos, ¡y nos encantaría cumplir tu deseo! Sin embargo, desafortunadamente, nuestros recursos son suficientes para mantener el desarrollo de Zettlr en funcionamiento y, por el momento, no es posible agregar más trabajo.
 
-Markdown is a simple markup language that enables you to write text just as complex as using standard office software, but with much less clutter. Instead of having to manually select all formatting options, in Markdown, typing a `#` suffices to indicate a heading! Want to hear more? Then head over to the [documentation on Markdown](reference/markdown-basics.md)!
+## ¿Qué es Markdown?
+
+Markdown es un lenguaje de marcado simple que le permite escribir texto tan complejo como usar un software de oficina estándar, pero con mucho menos desorden. En lugar de tener que seleccionar manualmente todas las opciones de formato, en Markdown, escribir un `#` es suficiente para indicar un encabezado. ¿Quieres escuchar más? ¡Entonces dirígete a la [documentación sobre Markdown](referencia / markdown-basics.md)!
 
 ## If I don't want to use Zettlr anymore, what would I need to do to switch programs?
 
