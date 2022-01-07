@@ -24,9 +24,9 @@ Recibimos cada vez más solicitudes de versiones móviles de Zettlr. Estamos muy
 
 Markdown es un lenguaje de marcado simple que le permite escribir texto tan complejo como usar un software de oficina estándar, pero con mucho menos desorden. En lugar de tener que seleccionar manualmente todas las opciones de formato, en Markdown, escribir un `#` es suficiente para indicar un encabezado. ¿Quieres escuchar más? ¡Entonces dirígete a la [documentación sobre Markdown](referencia / markdown-basics.md)!
 
-## If I don't want to use Zettlr anymore, what would I need to do to switch programs?
+## Si ya no quiero usar Zettlr, ¿qué debo hacer para cambiar de programa?
 
-Simply uninstall Zettlr and begin using another program of your choice. Zettlr does not mess with your files. If you have been using Projects or modified the directories, there will be small files named `.ztr-directory` present in some folders. To remove them, simply reset the sorting of directories to default, and remove all projects prior to uninstalling the app (or manually remove these files afterwards).
+Simplemente desinstale Zettlr y comienza a usar otro programa de tu elección. Zettlr no se mete con tus archivos. Si has estado usando Proyectos o modificado los directorios, habrá pequeños archivos llamados `.ztr-directory` presentes en algunas carpetas. Para eliminarlos, simplemente restablece la clasificación de directorios a los valores predeterminados y elimina todos los proyectos antes de desinstalar la aplicación (o elimine manualmente estos archivos después).
 
 ## I'm using Linux and deleting files doesn't move them to the trash!
 
